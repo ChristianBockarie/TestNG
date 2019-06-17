@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suiteTest" duration-ms="7563" started-at="2019-06-06T01:33:55Z" finished-at="2019-06-06T01:34:02Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="TaskOne.userOne()[pri:0, instance:com.Class03.TaskOne@3bfdc050]" name="userOne" class="com.Class03.TaskOne"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="test" duration-ms="7563" started-at="2019-06-06T01:33:55Z" finished-at="2019-06-06T01:34:02Z">
+      <class name="com.Class03.TaskOne">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Class03.TaskOne@3bfdc050]" name="setUp" is-config="true" duration-ms="6796" started-at="2019-06-06T01:33:55Z" finished-at="2019-06-06T01:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userOne()[pri:0, instance:com.Class03.TaskOne@3bfdc050]" name="userOne" duration-ms="542" started-at="2019-06-06T01:34:01Z" finished-at="2019-06-06T01:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userOne -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Class03.TaskOne@3bfdc050]" name="tearDown" is-config="true" duration-ms="197" started-at="2019-06-06T01:34:02Z" finished-at="2019-06-06T01:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Class03.TaskOne -->
+    </test> <!-- test -->
+  </suite> <!-- suiteTest -->
+</testng-results>
